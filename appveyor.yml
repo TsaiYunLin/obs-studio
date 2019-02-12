@@ -26,8 +26,8 @@ environment:
     # secure: fIxeDxHkiNodwPeNGX+E9tSpyjg/XuT+U9N+jtpT7xU=
     
   matrix:
-    - favor_arch: AMD64
-    - favor_arch: INTEL64
+#    - favor_arch: AMD64
+#    - favor_arch: INTEL64
     - favor_arch: blend
       vc_inc_arch: SSE2
       D3D12_HOOK: true
